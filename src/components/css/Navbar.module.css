@@ -1,0 +1,18 @@
+.navbar {
+    background-color: #0271e0; /* Azul  */
+    padding: 10px 20px; /* Margens laterais */
+    color: white; /* Texto branco */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
