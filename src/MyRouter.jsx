@@ -12,6 +12,7 @@ import Contato from "./pages/Contato.jsx"
 import Sobre from "./pages/Sobre.jsx"
 import InfoCard from "./components/InfoCard.jsx";
 import PaginaErro from "./pages/PaginaErro.jsx";
+import Login from "./pages/Login.jsx";
 
 // Cria as rotas da aplicação
 const router = createBrowserRouter([
@@ -46,7 +47,11 @@ const router = createBrowserRouter([
       {
         path: "/informacao/:id",
         element: <InfoCard/>,
-      } 
+      },
+      {
+        path: "/login",
+        element: <Login />
+      }
     ],
   },
 ]);
