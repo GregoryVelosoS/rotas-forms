@@ -1,0 +1,21 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "João",
+      "email": "joao@gmail.com"
+    }
+  ],    
+  "cursos": [
+    {
+      "id": 1,
+      "nome": "React",
+      "categoria": "Front-end"
+    },
+    {
+      "id": 2,
+      "nome": "Node",
+      "categoria": "Back-end"
+    }
+  ]
+}
